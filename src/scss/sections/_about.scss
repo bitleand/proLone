@@ -1,0 +1,36 @@
+.about {
+  &__container {
+    @include flexBetH;
+  }
+
+  &-item {
+    padding-bottom: 55px;
+
+    &__value {
+      @include text(300, 64px, $darkGrey);
+    }
+
+    &__subtitle {
+      @include text(400, 16px, $grey);
+    }
+  }
+
+  &-content {
+    max-width: 540px;
+
+    &__subtitle {
+      @include text(700, 44px, $darkGrey);
+
+      padding-bottom: 65px;
+    }
+
+    &__text {
+      @include text(400, 16px, $darkGrey);
+
+      &:first-child {
+        padding-bottom: 30px;
+        display: inline-block;
+      }
+    }
+  }
+}

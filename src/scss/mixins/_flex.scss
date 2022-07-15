@@ -10,6 +10,11 @@
   justify-content: center;
 }
 
+@mixin flexBetH {
+  display: flex;
+  justify-content: space-between;
+}
+
 @mixin flexEnd {
   display: flex;
   align-items: flex-end;
