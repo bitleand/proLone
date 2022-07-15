@@ -1,5 +1,7 @@
 /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */
 .header {
+  position: fixed;
+  width: 100%;
   padding: 40px 0;
 }
 .header__group {
@@ -40,7 +42,7 @@ body {
   min-width: 320px;
   min-height: 100%;
   font-weight: 400;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 ul, li, ol {
@@ -148,5 +150,66 @@ a {
 }
 .nav-item {
   margin-left: 35px;
+}
+.nav-item__link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */
+.btn {
+  width: 100%;
+  height: 60px;
+  max-width: 280px;
+  max-height: auto;
+  padding: 0 15px;
+}
+.btn--light {
+  background-color: #ffffff;
+}
+.btn--light__text {
+  font-weight: 600;
+  font-size: 17px;
+  color: #1d1d1f;
+}
+.btn--dark {
+  background-color: #1d1d1f;
+}
+.btn--dark__text {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  background-color: #1d1d1f;
+  padding: 8px;
+}
+
+/* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable */
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 270px 0 180px;
+  background-image: url("../img/bg-hero.jpg");
+}
+.hero-content__title {
+  font-weight: 600;
+  font-size: 96px;
+  color: #ffffff;
+  line-height: 115px;
+  letter-spacing: 0;
+  padding-bottom: 30px;
+}
+.hero-content__description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+@import "variables";
+@import "mixins";
+
+.hero {
+  @include bgCover;
+
+  padding: 270px 0 180px;
+  background-image: url('../img/bg-hero.jpg');
+
+  &-content {
+    &__title {
+      @include text(600, 96px, $white);
+      @include lineHletterS(115px, 0);
+
+      padding-bottom: 30px;
+    }
+
+    &__description {
+      @include text(400, 14px, $white);
+
+      padding-bottom: 50px;
+    }
+  }
+}
+
+// 700, 600, 500, 400, 300

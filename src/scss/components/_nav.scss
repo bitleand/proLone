@@ -7,5 +7,9 @@
 
   &-item {
     margin-left: 35px;
+
+    &__link {
+      @include text(400, 16px, $white);
+    }
   }
 }

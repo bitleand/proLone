@@ -1,0 +1,25 @@
+@import "variables";
+@import "mixins";
+
+.btn {
+  @include wh(100%, 60px);
+  @include maxWmaxH(280px, auto);
+
+  padding: 0 15px;
+
+  &--light {
+    background-color: $white;
+
+    &__text {
+      @include text(600, 17px, $darkGrey);
+    }
+  }
+
+  &--dark {
+    background-color: $darkGrey;
+
+    &__text {
+      @include text(600, 17px, $white);
+    }
+  }
+}

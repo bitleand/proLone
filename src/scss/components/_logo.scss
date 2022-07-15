@@ -1,0 +1,6 @@
+.logo {
+  @include text(700, 32px, $white);
+
+  background-color: $darkGrey;
+  padding: 8px;
+}
