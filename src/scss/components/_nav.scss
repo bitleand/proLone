@@ -1,0 +1,11 @@
+@import 'mixins';
+
+.nav {
+  &__list {
+    @include flexCenterV;
+  }
+
+  &-item {
+    margin-left: 35px;
+  }
+}

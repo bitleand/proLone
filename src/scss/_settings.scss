@@ -1,0 +1,6 @@
+[class*="__container"] {
+  @include maxWmaxH(1230px, inherit);
+
+  padding: 0 15px;
+  margin: 0 auto;
+}
