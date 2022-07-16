@@ -1,0 +1,26 @@
+.quoute {
+  &-content {
+    @include maxWmaxH(760px, auto);
+
+    &__subtitle {
+      @include text(400, 16px, $grey);
+
+      padding-bottom: 50px;
+    }
+
+    &__text {
+      @include text(500, 36px, $darkGrey);
+      @include lineHletterS(50px, 0);
+
+      padding-bottom: 30px;
+    }
+
+    &__description {
+      @include text(400, 16px, $darkGrey);
+
+      &--position {
+        @include text(400, 16px, $grey);
+      }
+    }
+  }
+}
