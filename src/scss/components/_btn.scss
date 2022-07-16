@@ -3,7 +3,7 @@
 
 .btn {
   @include wh(100%, 60px);
-  @include maxWmaxH(280px, auto);
+  @include maxWmaxH(180px, auto);
 
   padding: 0 15px;
 

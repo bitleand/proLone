@@ -1,0 +1,23 @@
+.portfolio {
+  &__item {
+    @include flexCenterBet;
+
+    &:not(:last-child) {
+      padding-bottom: 120px;
+    }
+  }
+
+  &-content {
+    &__title {
+      @include text(400, 24px, $grey);
+
+      padding-bottom: 20px;
+    }
+
+    &__text {
+      @include text(400, 16px, $darkGrey);
+
+      padding-bottom: 60px;
+    }
+  }
+}
