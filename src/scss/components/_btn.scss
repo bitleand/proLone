@@ -7,6 +7,12 @@
 
   padding: 0 15px;
 
+  &--search {
+    @include wh(100%, auto);
+
+    padding: 0;
+  }
+
   &--light {
     background-color: $white;
 

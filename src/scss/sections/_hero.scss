@@ -4,10 +4,12 @@
 .hero {
   @include bgCover;
 
-  padding: 270px 0 180px;
   background-image: url('../img/bg-hero.jpg');
+  padding: 250px 0 180px;
 
   &-content {
+    @include maxWmaxH(935px, auto);
+
     &__title {
       @include text(600, 96px, $white);
       @include lineHletterS(115px, 0);
@@ -17,6 +19,8 @@
 
     &__description {
       @include text(400, 14px, $white);
+      @include lineHletterS(150%, 0);
+      @include maxWmaxH(430px, auto);
 
       padding-bottom: 50px;
     }
